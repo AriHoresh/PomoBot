@@ -461,7 +461,7 @@ async def cmd_stats(ctx):
 
     embed = (
         discord.Embed(
-            title="Study Statistics",
+            title="Pomodoro Timer Statistics",
             description=desc,
             timestamp=dt.datetime.utcfromtimestamp(first_session_ts)
         )
